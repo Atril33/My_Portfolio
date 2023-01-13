@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background: #fff;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+h1 a {
+  color: #6070ff;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
+  user-select: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.bars {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  right: 0;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 4px;
+  margin: 4px 0;
+  border-radius: 2px;
+  background: #6070ff;
+}
+
+.content-items img {
+  width: 100%;
+  margin-top: -100px;
+  background: #fff;
+  position: absolute;
+  z-index: -1;
+}
+
+.header-text {
+  width: auto;
+  height: auto;
+}
+
+.header-text h2 {
+  color: #000;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 120px 0 0 30px;
+}
+
+.paragraph-text p {
+  width: 300px;
+  color: #000;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+  cursor: pointer;
+  margin: 7px 30px;
+}
+
+.contact_list ul {
+  margin: 15px 30px;
+}
+
+.contact_list li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+.contact_list li a {
+  margin: 0;
+}
+
+.contact_list h3 {
+  margin: 15px 30px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: bold;
+  color: #6070ff;
+}
+
+i {
+  color: #505f79;
+  cursor: pointer;
+  font-size: 20px;
+}
