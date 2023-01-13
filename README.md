@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [My Portfolio Page] <a name="about-project"></a>
 
 > This is my Portfolio page I made this with HTMl & CSS. I completed this website by using simple HTML & CSS line. I used _header, image, text, menu-bar & icons_ in by Html & _colors, sizes, margins, & paddings_ ,etc I used css for stylings.
 
-**[Hello Microverse]** This is my first project.
+**[My Portfolio]** This is my Portfolio page.
 
 ## 🛠 Built With <a name="built-with"></a>
 
