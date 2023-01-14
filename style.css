@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap');
 
 * {
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
 
 body {
   overflow-x: hidden;
+  max-width: 100vh;
 }
 
 header {
@@ -19,25 +20,24 @@ header {
   padding: 0 30px;
 }
 
-h1 a {
+.my_logo a {
   color: #6070ff;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 3px;
+  font-family: 'Poppins', sans-serif;
   user-select: none;
   cursor: pointer;
-  text-decoration: none;
+  font-size: 25px;
 }
 
-.bars {
+nav {
   width: 50px;
   height: auto;
   position: absolute;
   right: 0;
-  margin: 0 20px;
+  margin: 0 30px;
   cursor: pointer;
 }
 
-.bar {
+nav .bar {
   width: 30px;
   height: 4px;
   margin: 4px 0;
@@ -45,10 +45,13 @@ h1 a {
   background: #6070ff;
 }
 
-.content-items img {
-  width: 100%;
-  margin-top: -100px;
-  background: #fff;
+.container {
+  background-image: url('Images/background_img.png');
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+  left: 0;
   position: absolute;
   z-index: -1;
 }
@@ -56,29 +59,29 @@ h1 a {
 .header-text {
   width: auto;
   height: auto;
+  margin: 0 24px;
 }
 
 .header-text h2 {
   color: #000;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 3px;
-  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
   cursor: pointer;
-  margin: 120px 0 0 30px;
+  margin: 130px 0 0 0;
 }
 
-.paragraph-text p {
+.header-text p {
   width: 300px;
   color: #000;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 17px;
-  font-weight: 200;
+  font-weight: 400;
   cursor: pointer;
-  margin: 7px 30px;
 }
 
 .contact_list ul {
-  margin: 15px 30px;
+  margin: 15px 24px;
 }
 
 .contact_list li {
@@ -92,9 +95,9 @@ h1 a {
 }
 
 .contact_list h3 {
-  margin: 15px 30px;
+  margin: 15px 24px;
   font-family: 'Nunito Sans', sans-serif;
-  font-style: bold;
+  font-weight: 500;
   color: #6070ff;
 }
 
